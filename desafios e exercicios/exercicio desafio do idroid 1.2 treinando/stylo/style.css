@@ -35,7 +35,7 @@ header>p{
 
 }
 nav{
-    background-color: #156137;
+    background-color: #077235;
     padding: 8px;
 }
 nav>a{
@@ -73,6 +73,20 @@ main>p{
     text-align: justify;
     padding: 10px;
 }
+div.video{
+    background-color: var(--cor03);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 60%;
+}
+div.video>iframe{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 98%;
+    height:98% ;
+}
 aside>h3{
     color: white;
     padding: 6px;
@@ -85,6 +99,11 @@ aside{
     padding: 10px;
     background-color: #05be55;
     border-radius: 10px;
+}
+aside>ul{
+    list-style-type:"\2714\00a0" ;
+    list-style-position: inside;
+    columns: 2;
 }
 footer{
     text-align: center;
