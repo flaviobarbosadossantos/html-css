@@ -19,6 +19,7 @@
 }
 
 html,body{
+    padding: 0px 0px 3px 0px;
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte01);
@@ -53,6 +54,9 @@ section{
     font-family: var(--fonte03);
     font-size: 3.5vw;
 }
+section> p {
+    padding-bottom: 2em;
+}
 
 section.normal {
     background-color: #ffff;
@@ -60,18 +64,32 @@ section.normal {
 }
 
 section.imagen{
-    background-color: rgb(70, 68, 68);
+   background-color: rgb(155, 160, 160);
     color: #ffff;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.616);
+    background-attachment: fixed;
 }
 section.imagen >p{
     display: inline-block;
-   background-color: rgb(54, 53, 53);
+   background-color: rgba(54, 53, 53, 0.452);
    padding: 5px;
+   text-shadow: 2px 1px 2px black;
 
 }
+
 footer{
     background-color: black;
     color: #ffff;
     text-align: center;
-    padding: 25px;
-}
+    padding: 15px;
+ }
+ footer>p{
+    padding-bottom: 10px;
+ }
+ section#imagen01{background-image: url("../imagens/background001.jpg");
+    background-position: right,center;
+    background-size: cover;
+ }
+ section#imagen02{background-image: url("../imagens/background002.jpg");
+background-size: cover;
+ }
