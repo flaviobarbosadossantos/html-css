@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(188, 230, 230);
+    text-align: center;
+    
+}
+header>p{
+    padding-bottom: 40px;
+    color: white;
+   
+}
+h1{
+    padding-top: 40px;
+}
+nav{
+    padding: 10px;
+    background-color: rgba(118, 141, 141, 0.473);
+    border-radius: 0px 0px 10px 10px;
+}
+nav>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+  
+body{
+    background-color: rgba(142, 248, 248, 0.568);
+}
+body>img{
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(63, 102, 102, 0.61);
+}
