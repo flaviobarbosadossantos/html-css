@@ -8,17 +8,20 @@ header{
     
 }
 header>p{
+    font-weight: bolder;
+    font-size: 2em;
     padding-bottom: 40px;
-    color: white;
+    color: rgb(52, 39, 90);
    
 }
 h1{
+    font-size: 3em;
     padding-top: 40px;
 }
 nav{
     padding: 10px;
     background-color: rgba(118, 141, 141, 0.473);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 nav>a{
     text-decoration: none;
@@ -29,9 +32,17 @@ nav>a{
   
 body{
     background-color: rgba(142, 248, 248, 0.568);
+    height: 100vh;
 }
-body>img{
-    background-size: cover;
+
+img{ 
+   padding-top: 5px;
+background-position: center;
+background-size: cover;
+padding-left: 16%;
+}
+body>p{
+    padding: 10px;
 }
 footer{
     text-align: center;
