@@ -16,20 +16,33 @@
            border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1.5em;
+            background-color: rgb(204, 199, 199);
+        }
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
+        }
         thead,tfoot{
             background-color:gray;
             color: white;
         }
+        
         .numero{
             text-align: right;
         }
     </style>
 </head>
 <body>
+    <h1>uso de tabelas grandes</h1>
+
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
-          <th>estado</th>
-          <th>população</th>
+          <th scope="col">estado</th>
+          <th scope="col">população</th>
         </thead>
         <tbody>
             <tr>
@@ -140,8 +153,8 @@
        
          </tbody>
         <tfoot>
-         <th>total de população</th>
-         <td>00000</td>
+         <th scope="row">total de população</th>
+         <td>203.078.380</td>
         </tfoot>
     </table>
     
