@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th,td{
            border: 1px solid black;
@@ -26,8 +27,13 @@
             background-color: lightgray;
         }
         thead,tfoot{
-            background-color:gray;
+            background-color:#808080;
             color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: #808080;
         }
         
         .numero{
